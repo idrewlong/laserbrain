@@ -13,19 +13,19 @@ export default function Director() {
               {/* <h2 className="text-lg font-semibold leading-8 tracking-tight text-ap_dark_gray uppercase">
                 About Us
               </h2> */}
-              <p className="mt-2 text-2xl font-bold tracking-tight sm:text-4xl uppercase">
+              <p className="mt-2 text-2xl text-white font-bold tracking-tight sm:text-4xl uppercase">
                 LaserBrain VFX IS AN INDEPENDENT, CREATIVELY DRIVEN FULL-SERVICE
                 VIDEO PRODUCTION COMPANY DESIGNED TO TAKE A PROJECT FROM CONCEPT
                 TO PACKAGING, ENSURING THAT OUR CLIENT'S VISION BECOMES A
                 REALITY.
               </p>
               <div className="mt-6">
-                <a
+                {/* <a
                   className="px-4 py-2 bg-gradient-to-br from-purple-400 to-sky-300 rounded-md shadow-md hover:shadow-blue-400 hover:shadow-sm uppercase font-bold"
                   href="/about"
                 >
                   Learn More
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -43,6 +43,14 @@ export default function Director() {
             </video>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <a
+          href="/"
+          className=" font-black text-3xl md:text-7xl text-white text-center uppercase my-16 hover:bg-white hover:text-black hover:rounded-full hover:px-32"
+        >
+          learn more
+        </a>
       </div>
     </div>
   );
