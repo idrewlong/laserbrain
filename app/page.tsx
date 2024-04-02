@@ -5,6 +5,7 @@ import Brands from "@/components/Brands";
 import Recent from "@/components/Recent";
 import Cta from "@/components/Cta";
 import Services from "@/components/Services";
+import SliderOne from "@/components/SliderOne";
 
 export default function Home() {
   return (

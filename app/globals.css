@@ -43,3 +43,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.section-bg-services {
+  background-image: url(/BG-1.webp);
+  background-size: cover;
+  background-position: center;
+}
