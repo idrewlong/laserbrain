@@ -2,7 +2,7 @@ import React from "react";
 
 const Cta = () => {
   return (
-    <div className="flex items-center justify-center mt-12 md:mt-0 ">
+    <div className="flex items-center justify-center mt-12 md:mt-0  bg-black ">
       <div className="rounded-xl m-8 md:m-16 border border-indigo-500/50 shadow-xl shadow-indigo-500/50 p-4 md:p-16 space-y-6 items-center text-center">
         <h1 className="font-bold text-3xl md:text-6xl text-white tracking-wide uppercase">
           Work with the{" "}
