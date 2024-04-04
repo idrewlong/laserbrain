@@ -39,3 +39,26 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.section-bg-contact {
+  background-image: url(/BG-1.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.form {
+  width: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    width: 100%; /* Make the form take up the full width of the screen */
+    max-width: 600px; /* Set a maximum width to prevent the form from stretching too wide */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 0 20px; /* Add some padding to the sides of the form */
+  }
+}
+
+.text-area {
+  height: 200px;
+}

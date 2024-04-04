@@ -6,7 +6,13 @@ export default function Footer() {
       <div className="container px-4 mx-auto">
         <div className="pt-24 pb-11 mx-auto max-w-4xl">
           <a className="flex justify-center md:mx-auto mb-5" href="/">
-            <img src="/laserbrain.webp" alt="" className="h-20 w-auto" />
+            <img
+              src="/laserbrain.webp"
+              alt=""
+              className="h-20 w-auto"
+              height={20}
+              width={20}
+            />
           </a>
           <div className="flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-6 space-y-4 md:space-y-0 w-full md:w-auto p-3 md:px-6">
             <a

@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
 
       {/* {Logo} */}
-      <div className="text-xl md:font-bold flex-1 md:text-center flex justify-center items-center">
+      <div className="text-xl md:font-bold text-center flex justify-center items-center">
         <Link href="/">
           <Image
             src="/laserbrain.webp"
@@ -43,8 +43,8 @@ const Navbar = () => {
       <div className="hidden md:flex flex-1 items-center justify-end">
         <div className="relative flex items-center gap-2 cursor-pointer">
           <Link href="/contact">
-            <div className="bg-gradient-to-br from-purple-400 to-sky-300 px-3 py-1 rounded hover:opacity-80 transition duration-300">
-              <span className="text-white">Contact</span>
+            <div className="bg-gradient-to-br from-purple-400 to-sky-300 px-4 py-2 rounded hover:opacity-80 transition duration-300">
+              <span className="text-white font-bold uppercase">Contact</span>
             </div>
           </Link>
         </div>

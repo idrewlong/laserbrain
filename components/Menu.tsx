@@ -21,16 +21,16 @@ const Menu = () => {
         <Image
           src="/open.png"
           alt="Open"
-          width={20}
-          height={20}
+          width={15}
+          height={15}
           onClick={() => setOpen(true)}
         />
       ) : (
         <Image
           src="/close.png"
           alt="Open"
-          width={20}
-          height={20}
+          width={15}
+          height={15}
           onClick={() => setOpen(false)}
         />
       )}
