@@ -1,5 +1,10 @@
 import React from "react";
+import WorkDiv from "@/components/WorkUI/WorkDiv";
 
 export default function page() {
-  return <div>This is the recent work page</div>;
+  return (
+    <div>
+      <WorkDiv />
+    </div>
+  );
 }
