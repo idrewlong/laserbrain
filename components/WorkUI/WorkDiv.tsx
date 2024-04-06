@@ -5,9 +5,7 @@ export default function WorkDiv() {
   return (
     <div className="min-h-screen section-bg-contact">
       <div className="flex flex-col justify-center items-center p-8">
-        <h1 className="text-white text-5xl md:text-7xl uppercase font-bold">
-          Portfolio
-        </h1>
+        <h1 className="text-white text-7xl uppercase font-bold">Portfolio</h1>
       </div>
       <div className="mt-4 grid grid-cols-1 space-y-8 space-x-0 md:space-x-8 md:space-y-0 md:grid-cols-3 mx-auto px-8">
         {data.map((item, index) => (

@@ -68,3 +68,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.about_bg {
+  background-image: url(/BG-2.webp);
+  background-size: cover;
+  background-position: center;
+}

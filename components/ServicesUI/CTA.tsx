@@ -3,7 +3,7 @@ import React from "react";
 export default function CTA() {
   return (
     <section className="section-bg-services min-h-[30rem] px-8 md:px-0">
-      <div className="max-w-7xl mx-auto rounded-3xl p-5 my-8 border border-indigo-500/50 shadow-xl shadow-indigo-500/50 shadow-xl text-white text-center md:text-left ">
+      <div className="max-w-7xl mx-auto rounded-3xl p-5 my-8 border border-indigo-500/50shadow-indigo-500/50 shadow-xl text-white text-center md:text-left ">
         <div className="flex flex-col md:flex-row md:items-center justify-between">
           <div className="max-w-3xl px-6 py-6 md:px-12">
             <h2 className="md:my-12 text-4xl md:text-5xl font-bold">
