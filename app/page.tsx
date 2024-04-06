@@ -1,5 +1,5 @@
 import Hero from "@/components/Hero";
-import Director from "@/components/Director";
+import Director from "@/components/About";
 import Image from "next/image";
 import Brands from "@/components/Brands";
 import Recent from "@/components/Recent";

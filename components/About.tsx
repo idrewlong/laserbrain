@@ -46,7 +46,7 @@ export default function Director() {
       </div>
       <div className="flex justify-center items-center">
         <a
-          href="/"
+          href="/about"
           className=" font-black text-3xl md:text-7xl text-white text-center uppercase my-16 hover:bg-white hover:text-black hover:rounded-full hover:px-32"
         >
           learn more

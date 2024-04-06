@@ -62,3 +62,9 @@ body {
 .text-area {
   height: 200px;
 }
+
+.service_bg {
+  background-image: url(/BG-2.webp);
+  background-size: cover;
+  background-position: center;
+}
